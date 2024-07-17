@@ -1,0 +1,275 @@
+* {
+    padding : 0px;
+    margin : 0px;
+
+}
+body{
+    background-color: #3572EF;
+    background-image: url(../img/abstract-wavy-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    width : 1000px;
+    height : 1400px;
+    margin : 20px auto;
+    background-color: #A7E6FF;
+    padding : 30px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 20px;
+    box-shadow : 6px 6px 6px 10px rgb(0, 0, 0, 0.5);
+    border-radius : 10px;
+}
+
+p{
+    margin-top : 10px;
+}
+
+/* style halaman Input */
+
+
+.jk input, label {
+    margin : 10px 10px 20px 0px;
+    font-weight :bold;
+
+}
+
+.pilihan{
+    width : 50px;
+    border : 3px solid black;
+    background-color: blue;
+}
+
+.form{
+    background-color : lightcyan;
+    padding : 20px;
+    margin : 30px 0px;
+    border-radius: 10px;
+}
+
+.form div {
+    margin-bottom : 10px;
+}
+
+.form .main .input-1,.input-2, .input-3 {
+    width : 100%;
+    height : 50px;
+    border-radius : 5px;
+    padding : 8px;
+    box-sizing : border-box;
+    margin-top : 15px;
+    margin-right : 10px;
+    font-size: 18px;
+}
+
+.button .hitung{
+    height : 50px;
+    width : 150px;
+    background-color : #4B70F5;
+    color : white;
+    padding : 5px;
+    border-radius: 5px;
+    border :none;
+    font-weight: bold;
+    font-size : 20px;
+    margin-right: 5px;
+    margin-top : 30px;
+}
+
+.button .reset{
+    height : 50px;
+    width : 150px;
+    background-color:white;
+    padding : 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size : 20px;
+    margin-right: 5px;
+}
+
+.hitung:hover, .reset:hover{
+    height : 50px;
+    width : 150px;
+    background-color:white;
+    padding : 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size : 20px;
+    margin-right: 5px;
+    border : 3px solid #050C9C;
+}
+
+.button .hitung:hover{
+    background-color: #4B70F5;
+}
+
+.deskripsi ol {
+    padding : 20px;
+}
+
+/* style halaman output */
+
+.container-output h1 {
+    text-align: center;
+}
+
+.lk-img{
+    background-image: url(../img/male.png);
+    background-color: white;
+    border-radius: 10px ;
+    width : 100%;
+    height : 200px;
+    margin : 20px auto;
+    background-size :contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px 3px rgb(109, 92, 92);
+}
+.pr-img{
+    background-image: url(../img/female.jpg);
+    background-color: white;
+    width : 100%;
+    height : 200px;
+    margin : 20px auto;
+    background-size :contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 10px 3px rgb(109, 92, 92);
+
+}
+
+
+
+.back{
+    height : 40px;
+    width : 200px;
+    background-color : #4B70F5;
+    color : white;
+    padding : 5px;
+    border-radius: 5px;
+    border :none;
+    font-weight: bold;
+    font-size : 18px;
+    margin : 10px 0px 20px 0px;
+
+}
+
+.back:hover{
+    height : 40px;
+    width : 200px;
+    background-color : #4B70F5;
+    color : white;
+    padding : 5px;
+    border-radius: 5px;
+    border :none;
+    font-weight: bold;
+    font-size : 18px;
+    margin : 10px 0px 20px 0px;
+    border : 3px solid #050C9C;
+
+}
+
+
+.container-output{
+    display : none;
+}
+
+.atas-hasil {
+    background-color : ghostwhite;
+    display : flex;
+    justify-content : center;
+    text-align : center;
+    padding : 20px;
+    border-radius :5px;
+    margin : 20px 0px;
+}
+
+.atas-hasil .angka{
+    background-color: blue;
+    height : 100px;
+    line-height :100px;
+    margin : 20px 0px;
+    font-family: 'Press Start 2P';
+    color : white;
+    font-size : 5rem;
+    border-radius : 15px;
+    box-shadow : 5px 5px 10px 5px rgb(0, 0, 0, 0.5);
+}
+
+.atas-hasil button{
+    height : 40px;
+    width : 200px;
+    background-color : #4B70F5;
+    color : white;
+    padding : 5px;
+    border-radius: 5px;
+    border :none;
+    font-weight: bold;
+    font-size : 18px;
+    margin-right: 5px;
+    margin-top : 15px;
+}
+
+
+.tengah-hasil button {
+    height : 40px;
+    width : 250px;
+    background-color : #4B70F5;
+    color : white;
+    padding : 5px;
+    border-radius: 5px;
+    border :none;
+    font-weight: bold;
+    font-size : 16px;
+    margin-right: 5px;
+    margin-top : 15px;
+}
+
+.bawah-hasil {
+    background-color : ghostwhite;
+    display : flex;
+    justify-content : center;
+    text-align : center;
+    align-items : center;
+    padding : 20px;
+    margin : 30px 0px;
+    border-radius : 5px;
+}
+
+
+.bawah-hasil button {
+    height : 40px;
+    width : 260px;
+    background-color : #4B70F5;
+    color : white;
+    padding : 5px;
+    border-radius: 5px;
+    border :none;
+    font-weight: bold;
+    font-size : 16px;
+    margin-right: 5px;
+    margin-top : 15px;
+}
+
+.item{
+    list-style-type : none;
+    text-align : center;
+    margin : 10px;
+}
+.download-app{
+    text-align : center;
+    margin : 20px 0px;
+}
+
+.download-app .apple{
+    width : 230px;
+    margin-top: 10px;
+}
+.download-app .android{
+    width : 200px;
+    margin-top: 10px;
+}
+

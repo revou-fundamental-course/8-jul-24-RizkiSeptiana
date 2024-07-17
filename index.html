@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Assigment</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- halaman input -->
+    <div class="container-input">
+      <div class="top">
+        <h1>Kalkulator BMI</h1>
+        <p>
+          Berat badan ideal adalah impian semua orang. Tidak hanya memiliki
+          bentuk tubuh yang menunjang penampilan, berat badan ideal juga
+          menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung
+          sekarang di kalkulator BMI..
+        </p>
+      </div>
+      <!-- form input pengguna  -->
+      <div class="form">
+        <form action="index.html">
+          <div class="jk">
+            <h3>Jenis Kelamin</h3>
+            <label for="pria">
+              <input class="pilihan" type="radio" name="jk" id="pria" value="pria">Pria
+            </label>
+            <label for="wanita">
+              <input class="pilihan" type="radio" name="jk" id="wanita" value="wanita">Wanita
+            </label>
+          </div>
+          <div class="main">
+            <div>
+              <label for="bb">Berat Badan (kg)</label><br>
+              <input class="input-1" type="text" placeholder="Masukan berat badan Anda" name="bb" id="bb">
+            </div>
+            <div>
+              <label for="usia">Usia (Tahun)</label><br>
+              <input class="input-2" type="text" placeholder="Masukan usia Anda" name="usia" id="usia">
+            </div>
+            <div>
+              <label for="tb">Tinggi Badan (cm)</label><br>
+              <input class="input-3" type="text" placeholder="Masukan berat badan Anda" name="tb" id="tb">
+            </div>
+          </div>
+          <div class="button">
+            <button class="hitung" type="button" name="submit" value="submitValue">Hitung BMI</button>
+            <button class="reset" type="reset" name="reset" value="resetValue">Reset</button>
+          </div>
+      </form>
+      </div>
+      <div class="deskripsi">
+        <h3>Keunggulan fitur</h3>
+        <ol>
+          <li>Menghitung berat badan</li>
+          <li>Menentukan kategori berat badan ideal atau tidak</li>
+          <li>Mempersiapkan program penurunan berat badan</li>
+        </ol>
+        <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan MBI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperi dokter.</p>
+        <p>Kalkulator akan memberi Anda Gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M^2</p>
+      </div>
+    </div>
+
+    <!-- halaman output  -->
+
+    <div class="container-output">
+      <a href="./index.html"><button type="button" class="back">Kembali</button></a>
+      <h1>Hasil Perhitungan Kalkulator BMI</h1>
+      <div class="lk-img"></div>
+      <div class="pr-img"></div>
+      <div class="atas-hasil">
+        <div class="hasil">
+          <div class="pesan-atas">Anda belum menginput berat dan tinggi badan</div>
+          <div class="angka">angka</div>
+          <div class="pesan-bawah"></div>
+          <button type="button">Download Hasil IBM</button>
+        </div>
+      </div>
+
+      <div class="tengah-hasil">
+        <p class="teks-kategori"></p>
+        <p class="teks-keadaan">
+        </p>
+        <div>
+          <button name="konsultasi" value="konsultasi">Konsultasi Dokter Via Aplikasi</button>
+          <button name="regis" value="regis">Registrasi Online Sekarang </button>
+        </div>
+        <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda.</p>
+      </div>
+
+      <div class="bawah-hasil">
+        <div class="sick">
+          <div>
+            <ul>
+              <li class="item"></li>
+              <li class="item"></li>
+              <li class="item"></li>
+              <li class="item"></li>
+            </ul>
+
+          </div>
+          <div>
+            <button name="konsultasi" value="konsultasi">Konsultasi Ahli Gizi Via Aplikasi</button>
+            <button name="regis" value="regis">Registrasi Online Ahli Gizi</button>
+          </div>
+        </div>
+      </div>
+      <div class="download-app">
+        <div>Download Aplikasi</div>
+        <a href="https://play.google.com/store/games?device=windows" target ="_blank">
+          <img src="./img/android.png" alt="android" class="android">
+        </a>
+        <a href="https://support.apple.com/id-id/102590" target="_blank">
+          <img src="./img/apple.png" alt="apple" class="apple">
+        </a>
+      </div>
+    </div>
+  </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
